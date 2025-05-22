@@ -1,61 +1,67 @@
----
-layout: default
-title: Azrakel Bot
----
+/* Azrakel Theme - Dark and Moody */
 
-<!-- Style: CSS for all pages -->
-<style>
-  body {
-    background-color: #0e0e0e;
-    color: #e0e0e0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    padding: 20px;
-  }
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0e0e0e;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
 
-  h1, h2, h3 {
-    color: #72c2ff;
-  }
+header {
+  background-color: #1a1a1a;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
-  a {
-    color: #a2d2ff;
-    text-decoration: none;
-  }
+header h1 {
+  color: #ff3366;
+  margin: 0;
+}
 
-  a:hover {
-    text-decoration: underline;
-  }
+nav a {
+  color: #e0e0e0;
+  text-decoration: none;
+  margin-left: 1rem;
+  transition: color 0.3s;
+}
 
-  nav {
-    background-color: #1a1a1a;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-  }
+nav a:hover {
+  color: #ff3366;
+}
 
-  nav a {
-    margin-right: 15px;
-    font-weight: bold;
-  }
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
 
-  .container {
-    max-width: 900px;
-    margin: auto;
-    padding: 20px;
-    background-color: #1a1a1a;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
-  }
-</style>
+section {
+  margin-bottom: 2rem;
+}
 
-<nav>
-  <a href="/">Home</a>
-  <a href="/commands">Commands</a>
-  <a href="/privacy">Privacy Policy</a>
-  <a href="/terms">Terms of Use</a>
-  <a href="/faq">FAQ</a>
-</nav>
+h2 {
+  color: #ff3366;
+}
 
-<div class="container">
-  {{ content }}
-</div>
+footer {
+  background-color: #1a1a1a;
+  color: #888;
+  text-align: center;
+  padding: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #ff3366;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
