@@ -1,15 +1,15 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.css" />
   <title>Azrakel | Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>Azrakel</h1>
+    <h1 class="logo">Azrakel</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="commands.html">Commands</a>
@@ -19,13 +19,43 @@
     </nav>
   </header>
 
-  <main>
+  <section class="hero">
     <h2>Welcome to Azrakel</h2>
-    <p>The whispering wendigo of the digital forest. Trusted Discord companion built by Team BarkByte.</p>
-  </main>
+    <p>The whispering wendigo of the digital forest. Trusted Discord companion built by <strong>Team BarkByte</strong>.</p>
+    <a href="#features" class="button">Explore Features</a>
+  </section>
+
+  <section id="features">
+    <h3>🔮 Features</h3>
+    <div class="features">
+      <div class="feature-card">
+        <h4>🎉 Fun Commands</h4>
+        <p>Keep your community laughing with hugs, howls, riddles, and more.</p>
+      </div>
+      <div class="feature-card">
+        <h4>🛡️ Moderation Tools</h4>
+        <p>Warn, mute, kick, and ban with ease using slash commands.</p>
+      </div>
+      <div class="feature-card">
+        <h4>🌲 Unique Aesthetic</h4>
+        <p>Azrakel is themed as a mythic forest guardian. It's more than a bot—it's an experience.</p>
+      </div>
+      <div class="feature-card">
+        <h4>💬 Support Ready</h4>
+        <p>Backed by Team BarkByte. Fast response, feature updates, and privacy-respecting design.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h3>Ready to summon Azrakel?</h3>
+    <a href="#" class="button invite">✨ Invite to Your Server</a>
+  </section>
 
   <footer>
-    <p>© 2025 Team BarkByte • <a href="mailto:teambarkbyte@gmail.com">Contact</a></p>
+    <p>
+      &copy; 2025 Team BarkByte • <a href="mailto:teambarkbyte@gmail.com">Contact</a>
+    </p>
   </footer>
 </body>
 </html>
